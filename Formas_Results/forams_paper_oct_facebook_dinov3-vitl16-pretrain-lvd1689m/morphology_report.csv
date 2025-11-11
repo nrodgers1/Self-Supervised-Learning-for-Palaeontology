@@ -1,0 +1,2 @@
+Dataset,n_samples,n_features,n_pca_used,metric,mean_pairwise_distance,std_pairwise_distance,mean_centroid_distance,std_centroid_distance,variance_sum,effective_rank
+Endless Forams Original,27729,1024,,cosine,0.25781455484349014,0.0838982544553181,0.13849278,0.05470426,0.25781408,76.30050659179688

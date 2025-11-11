@@ -1,0 +1,22 @@
+
+\begin{table}[ht]
+\centering
+\tiny
+\caption{Clustering results}
+\label{tab:clustering_results}
+\begin{tabularx}{\textwidth}{lXXXXXXXXX}
+\toprule
+Pipeline & Algorithm & No. of Clusters & ARI & AMI & Purity & Silhouette & DBI & Noise Fraction & Components Used \\
+\midrule
+PCA & KMeans (Known K) & 35 & 0.1788 & 0.4256 & 0.5771 & 0.0711 & 2.5075 & 0.000000 & 50 \\
+PCA & KMeans (Unknown K) & 2 & 0.0923 & 0.1556 & 0.2665 & 0.1153 & 2.7967 & 0.000000 & 50 \\
+PCA & Bayesian GMM & 50 & 0.1846 & 0.4871 & 0.6574 & 0.0379 & 2.8144 & 0.000000 & 50 \\
+PCA & HDBSCAN & 0 & 0.0000 & 0.0000 & 0.0000 & nan & nan & 1.000000 & 50 \\
+Exploratory UMAP & KMeans (Known K) & 35 & 0.2505 & 0.5177 & \textbf{0.6643} & 0.4040 & 0.8222 & 0.000000 & 15 \\
+Exploratory UMAP & KMeans (Unknown K) & 2 & 0.0466 & 0.0951 & 0.2259 & \textbf{0.7883} & \textbf{0.3012} & 0.000000 & 15 \\
+Exploratory UMAP & Bayesian GMM & 38 & \textbf{0.4172} & \textbf{0.5456} & 0.5886 & -0.0011 & 1.2859 & 0.000000 & 15 \\
+Exploratory UMAP & HDBSCAN & 3 & 0.0560 & 0.1359 & 0.2419 & 0.6234 & 0.3518 & 0.006744 & 15 \\
+\bottomrule
+\bottomrule
+\end{tabularx}
+\end{table}
