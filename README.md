@@ -18,4 +18,7 @@ how simple this pipeline is. In pratical use cases, it is probably easiest to fo
 appraoch outside of Paleontology. 
 
 
-Sources for the data used in this work are given in the manuscript in detail. We extract datasets from the repositories which were published alongside the works cited. 
+Sources for the data used in this work are given in the manuscript in detail. We extract datasets from the repositories which were published alongside the works cited.
+
+
+This work was "Built with DINOv3". And works using DINOv3 remain subject to the licensing agreement which was released with this model. The DINOv3 licensing agreement is also copied into this repo for reference. 
