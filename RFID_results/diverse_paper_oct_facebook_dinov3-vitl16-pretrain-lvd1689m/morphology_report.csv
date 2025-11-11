@@ -1,0 +1,2 @@
+Dataset,n_samples,n_features,n_pca_used,metric,mean_pairwise_distance,std_pairwise_distance,mean_centroid_distance,std_centroid_distance,variance_sum,effective_rank
+Diverse Fossils,59244,1024,,cosine,0.8300717577050818,0.140757156494889,0.5877595,0.15632018,0.8300663,197.31256103515625
