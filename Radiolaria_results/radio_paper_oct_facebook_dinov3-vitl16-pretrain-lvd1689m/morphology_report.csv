@@ -1,0 +1,2 @@
+Dataset,n_samples,n_features,n_pca_used,metric,mean_pairwise_distance,std_pairwise_distance,mean_centroid_distance,std_centroid_distance,variance_sum,effective_rank
+Radiolarians,1085,1024,,cosine,0.31535314755893007,0.1061447044486776,0.1723905,0.056317903,0.3153532,54.79143142700195
