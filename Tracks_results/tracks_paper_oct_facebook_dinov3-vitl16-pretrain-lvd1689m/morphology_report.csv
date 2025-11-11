@@ -1,0 +1,2 @@
+Dataset,n_samples,n_features,n_pca_used,metric,mean_pairwise_distance,std_pairwise_distance,mean_centroid_distance,std_centroid_distance,variance_sum,effective_rank
+Fossil Tracks,1671,1024,,cosine,0.31103948977386453,0.11159816788732682,0.16985136,0.0660937,0.31103957,48.343204498291016

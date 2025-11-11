@@ -1,0 +1,26 @@
+
+\begin{table}[ht]
+\centering
+\tiny  % <-- make table font smaller
+\caption{Few Shot Classification Results}
+\label{tab:few_shotclassification_results}
+\begin{tabularx}{\textwidth}{lXXXXXXXXXXX}
+\toprule
+Few-Shot k & Classifier & Repeats Successful & Top-1 Accuracy & Top-2 Accuracy & Top-3 Accuracy & F1 Macro & F1 Weighted & Precision Macro & Recall Macro & Specificity Macro & Balanced Accuracy \\
+\midrule
+1 & k-Nearest Neighbours & 50 & 0.561 ± 0.104 & N/A & N/A & 0.515 ± 0.102 & 0.531 ± 0.109 & 0.564 ± 0.107 & 0.541 ± 0.087 & 0.541 ± 0.087 & 0.541 ± 0.087 \\
+1 & Logistic Regression & 50 & 0.590 ± 0.093 & N/A & N/A & 0.550 ± 0.101 & 0.565 ± 0.104 & 0.600 ± 0.100 & 0.573 ± 0.082 & 0.573 ± 0.082 & 0.573 ± 0.082 \\
+2 & k-Nearest Neighbours & 50 & 0.609 ± 0.052 & N/A & N/A & 0.468 ± 0.115 & 0.449 ± 0.132 & 0.567 ± 0.093 & 0.554 ± 0.066 & 0.554 ± 0.066 & 0.554 ± 0.066 \\
+2 & Logistic Regression & 50 & 0.605 ± 0.093 & N/A & N/A & 0.584 ± 0.098 & 0.591 ± 0.102 & 0.613 ± 0.091 & 0.601 ± 0.085 & 0.601 ± 0.085 & 0.601 ± 0.085 \\
+3 & k-Nearest Neighbours & 50 & 0.601 ± 0.077 & N/A & N/A & 0.568 ± 0.081 & 0.580 ± 0.084 & 0.614 ± 0.078 & 0.588 ± 0.066 & 0.588 ± 0.066 & 0.588 ± 0.066 \\
+3 & Logistic Regression & 50 & 0.625 ± 0.068 & N/A & N/A & 0.608 ± 0.068 & 0.619 ± 0.068 & 0.623 ± 0.070 & 0.614 ± 0.064 & 0.614 ± 0.064 & 0.614 ± 0.064 \\
+5 & k-Nearest Neighbours & 50 & 0.625 ± 0.066 & N/A & N/A & 0.593 ± 0.077 & 0.608 ± 0.075 & 0.628 ± 0.070 & 0.606 ± 0.061 & 0.606 ± 0.061 & 0.606 ± 0.061 \\
+5 & Logistic Regression & 50 & 0.642 ± 0.061 & N/A & N/A & 0.629 ± 0.060 & 0.638 ± 0.063 & 0.645 ± 0.057 & 0.637 ± 0.052 & 0.637 ± 0.052 & 0.637 ± 0.052 \\
+10 & k-Nearest Neighbours & 50 & 0.641 ± 0.048 & N/A & N/A & 0.625 ± 0.048 & 0.637 ± 0.048 & 0.635 ± 0.048 & 0.629 ± 0.045 & 0.629 ± 0.045 & 0.629 ± 0.045 \\
+10 & Logistic Regression & 50 & 0.674 ± 0.058 & N/A & N/A & 0.668 ± 0.056 & 0.674 ± 0.057 & 0.674 ± 0.054 & 0.674 ± 0.053 & 0.674 ± 0.053 & 0.674 ± 0.053 \\
+20 & k-Nearest Neighbours & 50 & 0.667 ± 0.050 & N/A & N/A & 0.658 ± 0.046 & 0.666 ± 0.049 & 0.666 ± 0.044 & 0.663 ± 0.041 & 0.663 ± 0.041 & 0.663 ± 0.041 \\
+20 & Logistic Regression & 50 & \textbf{0.718 ± 0.031} & N/A & N/A & \textbf{0.713 ± 0.030} & \textbf{0.719 ± 0.031} & \textbf{0.716 ± 0.029} & \textbf{0.719 ± 0.028} & \textbf{0.719 ± 0.028} & \textbf{0.719 ± 0.028} \\
+\bottomrule
+\bottomrule
+\end{tabularx}
+\end{table}
