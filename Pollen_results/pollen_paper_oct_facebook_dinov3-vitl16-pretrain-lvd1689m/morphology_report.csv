@@ -1,0 +1,2 @@
+Dataset,n_samples,n_features,n_pca_used,metric,mean_pairwise_distance,std_pairwise_distance,mean_centroid_distance,std_centroid_distance,variance_sum,effective_rank
+Pollen,19667,1024,,cosine,0.29653080548620436,0.10903062988058923,0.16126016,0.060791794,0.2965305,42.06025695800781
