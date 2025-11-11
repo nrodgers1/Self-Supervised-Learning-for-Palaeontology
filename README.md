@@ -18,6 +18,10 @@ how simple this pipeline is. In pratical use cases, it is probably easiest to fo
 appraoch outside of Paleontology. 
 
 
+
+Results folders give CSV and .tex files of the raw results as well as all the figures which appear in the manuscript. 
+
+
 Sources for the data used in this work are given in the manuscript in detail. We extract datasets from the repositories which were published alongside the works cited.
 
 
