@@ -5,6 +5,9 @@ This code is used to generate the results of the paper "Complexity Begets Simpli
 Palaeontological Images with Few or No Labels" written by Niall Rodgers at the UK Centre for Astrobiology, at the University of Edinburgh. He can be contacted at Niall.Rodgers@ed.ac.uk. 
 
 
+This Github is considered a work in progess until the accepatnce of the this wokr for publication when I will convert to a permenant repository with a fixed DOI.
+
+
 This code comprises of two jupyter notebooks. One notebook will take a given dataset and the generate all analysis and classifaction for that dataset as shown 
 in the main text while the other notebook takes in an image and outputs a visualisation of the model output. 
 
