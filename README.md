@@ -29,5 +29,12 @@ Results folders give CSV and .tex files of the raw results as well as all the fi
 
 Sources for the data used in this work are given in the manuscript in detail. We extract datasets from the repositories which were published alongside the works cited.
 
+Data links:
+Pollen - https://figshare.com/articles/dataset/New_Zealand_pollen/12370307?file=22800437
+Fossil Tracks - https://rs.figshare.com/collections/_/6272858
+Radiolaria - https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.57745/G7CHQL
+RFID - https://zenodo.org/records/6333970
+Forams - https://zenodo.org/records/3996436
+
 
 This work was "Built with DINOv3". And works using DINOv3 remain subject to the licensing agreement which was released with this model. The DINOv3 licensing agreement is also copied into this repo for reference. 
