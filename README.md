@@ -15,7 +15,9 @@ The Hugging Face model card gives the steps you need to take to access the model
 
 To run this code you need to autheticate your Hugging Face account (this is free) due to the access rules of the model provider. We provide this code to support open science and highlight
 how simple this pipeline is. In pratical use cases, it is probably easiest to follow the tutorials given by Hugging Face or online to implement your own version as this is a more widely known
-appraoch outside of Paleontology. 
+appraoch outside of Paleontology.
+
+Depending on your operating system, Hugging Face version and access to a GPU some functions may not run as expect and might need some minor edits. This code was written using a MacBook Pro and Apple Metal GPU running on the devlopment version of Hugging Face (although Dinov3 should now be included in the stable version). 
 
 
 
