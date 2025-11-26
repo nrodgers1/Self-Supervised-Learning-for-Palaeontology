@@ -31,9 +31,13 @@ Sources for the data used in this work are given in the manuscript in detail. We
 
 Data links:
 Pollen - https://figshare.com/articles/dataset/New_Zealand_pollen/12370307?file=22800437
+
 Fossil Tracks - https://rs.figshare.com/collections/_/6272858
+
 Radiolaria - https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.57745/G7CHQL
+
 RFID - https://zenodo.org/records/6333970
+
 Forams - https://zenodo.org/records/3996436
 
 
