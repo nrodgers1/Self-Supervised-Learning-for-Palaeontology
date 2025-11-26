@@ -38,3 +38,6 @@ Forams - https://zenodo.org/records/3996436
 
 
 This work was "Built with DINOv3". And works using DINOv3 remain subject to the licensing agreement which was released with this model. The DINOv3 licensing agreement is also copied into this repo for reference. 
+
+
+In the .csv results files "train fraction" refers to the fraction of data passed to the cross-validation pipeline so when train fraction is 1.0 then all data has been passed to the pipeline and correspondences to the naming convention in the manuscript. 
