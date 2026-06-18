@@ -8,8 +8,10 @@ Palaeontological Images with Few or No Labels" written by Niall Rodgers at the U
 This Github is considered a work in progess until the acceptance of the this work for publication when I will convert to a permenant repository with a fixed DOI. 
 
 
-This code comprises of two jupyter notebooks. One notebook will take a given dataset and the generate all analysis and classifaction for that dataset as shown 
-in the main text while the other notebook takes in an image and outputs a visualisation of the model output. 
+This code comprises of two jupyter main notebooks. One notebook will take a given dataset and the generate all analysis and classifaction for that dataset as shown 
+in the main text while the other notebook takes in an image and outputs a visualisation of the model output.
+
+There is an extra version of the main results notebook which also included could to time the performance and make this kind of benchmark. 
 
 The code is written at a relatively high-level and is commented for reproduciblity. For the purposes of the paper we do cross-validation and conduct the inference in batches which adds extra steps 
 to the code complexity. The recommended way to test using a DINOv3 model would be to go directly the Hugging Face model card and follow the steps given there https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m .
@@ -45,3 +47,12 @@ This work was "Built with DINOv3". And works using DINOv3 remain subject to the 
 
 
 In the .csv results files "train fraction" refers to the fraction of data passed to the cross-validation pipeline so when train fraction is 1.0 then all data has been passed to the pipeline and correspondences to the naming convention in the manuscript. 
+
+The follwing software verions were used in this work.
+
+transformers 4.57.0.dev0
+torch 2.8.0
+scikit-learn 1.7.1
+umap-learn 0.5.9.post2
+hdbscan 0.8.39
+
