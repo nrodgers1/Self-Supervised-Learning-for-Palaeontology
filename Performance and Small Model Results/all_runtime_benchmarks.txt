@@ -1,0 +1,237 @@
+BENCHMARK REPORT CONSOLIDATION
+==============================
+
+
+
+================================================================================
+MODEL: DINO_Small | DATASET: pollen | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       19667
+Total Extraction Time:  49.42 seconds
+Throughput Speed:       397.92 images/second
+Peak System RAM Usage:  0.94 GB
+MPS Tensors Allocated:  0.06 GB
+MPS Driver Allocated:   1.09 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
+
+
+================================================================================
+MODEL: DINO_Small | DATASET: radiolaria | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       1085
+Total Extraction Time:  3.26 seconds
+Throughput Speed:       333.04 images/second
+Peak System RAM Usage:  0.70 GB
+MPS Tensors Allocated:  0.09 GB
+MPS Driver Allocated:   1.09 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
+
+
+================================================================================
+MODEL: DINO_Small | DATASET: radiolaria | DEVICE: CPU
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (CPU)
+========================================
+Processed Images:       1085
+Total Extraction Time:  28.14 seconds
+Throughput Speed:       38.56 images/second
+Peak System RAM Usage:  1.46 GB
+(Note: CPU benchmark uses single-threaded execution due to
+ stability requirements of the PyTorch/transformers/MPS stack)
+========================================
+
+
+================================================================================
+MODEL: DINO_Small | DATASET: tracks | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       1671
+Total Extraction Time:  4.25 seconds
+Throughput Speed:       393.26 images/second
+Peak System RAM Usage:  0.74 GB
+MPS Tensors Allocated:  0.05 GB
+MPS Driver Allocated:   1.09 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
+
+
+================================================================================
+MODEL: DINO_Small | DATASET: tracks | DEVICE: CPU
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (CPU)
+========================================
+Processed Images:       1671
+Total Extraction Time:  41.89 seconds
+Throughput Speed:       39.89 images/second
+Peak System RAM Usage:  1.75 GB
+(Note: CPU benchmark uses single-threaded execution due to
+ stability requirements of the PyTorch/transformers/MPS stack)
+========================================
+
+
+================================================================================
+MODEL: DINO_Small | DATASET: diverse | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       59244
+Total Extraction Time:  323.73 seconds
+Throughput Speed:       183.00 images/second
+Peak System RAM Usage:  1.17 GB
+MPS Tensors Allocated:  0.08 GB
+MPS Driver Allocated:   1.09 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
+
+
+================================================================================
+MODEL: DINO_Small | DATASET: foraminifera | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       27729
+Total Extraction Time:  128.07 seconds
+Throughput Speed:       216.52 images/second
+Peak System RAM Usage:  1.43 GB
+MPS Tensors Allocated:  0.06 GB
+MPS Driver Allocated:   1.09 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
+
+
+================================================================================
+MODEL: DINO_Large | DATASET: pollen | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       19667
+Total Extraction Time:  404.54 seconds
+Throughput Speed:       48.62 images/second
+Peak System RAM Usage:  2.10 GB
+MPS Tensors Allocated:  0.60 GB
+MPS Driver Allocated:   1.71 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
+
+
+================================================================================
+MODEL: DINO_Large | DATASET: radiolaria | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       1085
+Total Extraction Time:  20.70 seconds
+Throughput Speed:       52.42 images/second
+Peak System RAM Usage:  2.09 GB
+MPS Tensors Allocated:  0.62 GB
+MPS Driver Allocated:   1.69 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
+
+
+================================================================================
+MODEL: DINO_Large | DATASET: radiolaria | DEVICE: CPU
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (CPU)
+========================================
+Processed Images:       1085
+Total Extraction Time:  165.81 seconds
+Throughput Speed:       6.54 images/second
+Peak System RAM Usage:  3.68 GB
+(Note: CPU benchmark uses single-threaded execution due to
+ stability requirements of the PyTorch/transformers/MPS stack)
+========================================
+
+
+================================================================================
+MODEL: DINO_Large | DATASET: tracks | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       1671
+Total Extraction Time:  28.39 seconds
+Throughput Speed:       58.86 images/second
+Peak System RAM Usage:  2.09 GB
+MPS Tensors Allocated:  0.60 GB
+MPS Driver Allocated:   1.70 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
+
+
+================================================================================
+MODEL: DINO_Large | DATASET: tracks | DEVICE: CPU
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (CPU)
+========================================
+Processed Images:       1671
+Total Extraction Time:  263.09 seconds
+Throughput Speed:       6.35 images/second
+Peak System RAM Usage:  4.32 GB
+(Note: CPU benchmark uses single-threaded execution due to
+ stability requirements of the PyTorch/transformers/MPS stack)
+========================================
+
+
+================================================================================
+MODEL: DINO_Large | DATASET: diverse | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       59244
+Total Extraction Time:  1353.67 seconds
+Throughput Speed:       43.77 images/second
+Peak System RAM Usage:  2.09 GB
+MPS Tensors Allocated:  0.62 GB
+MPS Driver Allocated:   1.69 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
+
+
+================================================================================
+MODEL: DINO_Large | DATASET: foraminifera | DEVICE: MPS
+================================================================================
+
+========================================
+  COMPUTATIONAL BENCHMARK PROFILE (MPS)
+========================================
+Processed Images:       27729
+Total Extraction Time:  596.52 seconds
+Throughput Speed:       46.48 images/second
+Peak System RAM Usage:  2.09 GB
+MPS Tensors Allocated:  0.60 GB
+MPS Driver Allocated:   1.71 GB
+(Note: CPU and GPU share unified memory on Apple Silicon)
+========================================
