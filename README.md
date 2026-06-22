@@ -11,7 +11,7 @@ This Github is considered a work in progess until the acceptance of the this wor
 This code comprises of two jupyter main notebooks. One notebook will take a given dataset and the generate all analysis and classifaction for that dataset as shown 
 in the main text while the other notebook takes in an image and outputs a visualisation of the model output.
 
-There is an extra version of the main results notebook which also included could to time the performance and make this kind of benchmark. 
+We also include a small script to benchmark run times and computational costs which is setup to run specfically on Apple Silicon. The computational requirements of this pipeline are quite modest and it should run on most consumer hardware. If computational resources are very constrained one could switch to a smaller distilled DINOv3 model for testing. 
 
 The code is written at a relatively high-level and is commented for reproduciblity. For the purposes of the paper we do cross-validation and conduct the inference in batches which adds extra steps 
 to the code complexity. The recommended way to test using a DINOv3 model would be to go directly the Hugging Face model card and follow the steps given there https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m .
