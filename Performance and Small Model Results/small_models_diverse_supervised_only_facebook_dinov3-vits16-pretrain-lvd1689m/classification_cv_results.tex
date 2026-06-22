@@ -1,0 +1,24 @@
+
+\begin{table}[ht]
+\centering
+\tiny
+\caption{Classification results with mean $\pm$ standard deviation over folds}
+\label{tab:classification_results}
+\begin{tabularx}{\textwidth}{lXXXXXXXXXX}
+\toprule
+Train Fraction & Classifier & Top-1 Accuracy & Top-2 Accuracy & Top-3 Accuracy & F1 Macro & F1 Weighted & Precision Macro & Recall Macro & Specificity Macro & Balanced Accuracy \\
+\midrule
+0.10 & Logistic Regression & 0.657 ± 0.014 & 0.778 ± 0.011 & 0.835 ± 0.008 & 0.659 ± 0.014 & 0.657 ± 0.014 & 0.668 ± 0.014 & 0.658 ± 0.014 & 0.993 ± 0.000 & 0.658 ± 0.014 \\
+0.10 & k-Nearest Neighbours & 0.638 ± 0.012 & 0.744 ± 0.010 & 0.795 ± 0.010 & 0.643 ± 0.011 & 0.643 ± 0.011 & 0.669 ± 0.011 & 0.643 ± 0.011 & 0.993 ± 0.000 & 0.643 ± 0.011 \\
+0.30 & Logistic Regression & 0.694 ± 0.008 & 0.811 ± 0.006 & 0.862 ± 0.006 & 0.695 ± 0.008 & 0.694 ± 0.008 & 0.698 ± 0.008 & 0.695 ± 0.008 & 0.994 ± 0.000 & 0.695 ± 0.008 \\
+0.30 & k-Nearest Neighbours & 0.709 ± 0.006 & 0.799 ± 0.006 & 0.841 ± 0.006 & 0.712 ± 0.007 & 0.711 ± 0.007 & 0.726 ± 0.007 & 0.711 ± 0.007 & 0.994 ± 0.000 & 0.711 ± 0.007 \\
+0.50 & Logistic Regression & 0.718 ± 0.005 & 0.830 ± 0.005 & 0.879 ± 0.004 & 0.719 ± 0.005 & 0.718 ± 0.005 & 0.720 ± 0.005 & 0.720 ± 0.005 & 0.994 ± 0.000 & 0.720 ± 0.005 \\
+0.50 & k-Nearest Neighbours & 0.738 ± 0.006 & 0.824 ± 0.005 & 0.862 ± 0.005 & 0.741 ± 0.006 & 0.740 ± 0.006 & 0.752 ± 0.006 & 0.740 ± 0.006 & \textbf{0.995 ± 0.000} & 0.740 ± 0.006 \\
+0.70 & Logistic Regression & 0.734 ± 0.005 & 0.841 ± 0.004 & 0.888 ± 0.004 & 0.734 ± 0.005 & 0.734 ± 0.005 & 0.735 ± 0.005 & 0.735 ± 0.005 & 0.995 ± 0.000 & 0.735 ± 0.005 \\
+0.70 & k-Nearest Neighbours & 0.756 ± 0.004 & 0.837 ± 0.004 & 0.873 ± 0.003 & 0.759 ± 0.005 & 0.758 ± 0.005 & 0.768 ± 0.005 & 0.759 ± 0.005 & 0.995 ± 0.000 & 0.759 ± 0.005 \\
+1.00 & Logistic Regression & 0.748 ± 0.003 & \textbf{0.852 ± 0.003} & \textbf{0.897 ± 0.003} & 0.748 ± 0.003 & 0.748 ± 0.003 & 0.748 ± 0.003 & 0.749 ± 0.003 & 0.995 ± 0.000 & 0.749 ± 0.003 \\
+1.00 & k-Nearest Neighbours & \textbf{0.775 ± 0.003} & 0.852 ± 0.003 & 0.885 ± 0.003 & \textbf{0.777 ± 0.003} & \textbf{0.776 ± 0.003} & \textbf{0.784 ± 0.003} & \textbf{0.776 ± 0.003} & 0.995 ± 0.000 & \textbf{0.776 ± 0.003} \\
+\bottomrule
+\bottomrule
+\end{tabularx}
+\end{table}
