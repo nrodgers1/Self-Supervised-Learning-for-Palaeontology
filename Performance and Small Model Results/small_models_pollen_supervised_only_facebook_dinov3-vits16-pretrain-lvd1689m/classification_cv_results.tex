@@ -1,0 +1,24 @@
+
+\begin{table}[ht]
+\centering
+\tiny
+\caption{Classification results with mean $\pm$ standard deviation over folds}
+\label{tab:classification_results}
+\begin{tabularx}{\textwidth}{lXXXXXXXXXX}
+\toprule
+Train Fraction & Classifier & Top-1 Accuracy & Top-2 Accuracy & Top-3 Accuracy & F1 Macro & F1 Weighted & Precision Macro & Recall Macro & Specificity Macro & Balanced Accuracy \\
+\midrule
+0.10 & Logistic Regression & 0.945 ± 0.012 & 0.988 ± 0.005 & 0.994 ± 0.003 & 0.927 ± 0.020 & 0.943 ± 0.013 & 0.938 ± 0.020 & 0.929 ± 0.019 & \textbf{0.999 ± 0.000} & 0.929 ± 0.019 \\
+0.10 & k-Nearest Neighbours & 0.894 ± 0.016 & 0.966 ± 0.008 & 0.977 ± 0.007 & 0.839 ± 0.023 & 0.887 ± 0.016 & 0.879 ± 0.022 & 0.828 ± 0.024 & 0.998 ± 0.000 & 0.828 ± 0.024 \\
+0.30 & Logistic Regression & 0.967 ± 0.005 & 0.995 ± 0.002 & 0.997 ± 0.001 & 0.962 ± 0.006 & 0.967 ± 0.005 & 0.965 ± 0.006 & 0.963 ± 0.007 & 0.999 ± 0.000 & 0.963 ± 0.007 \\
+0.30 & k-Nearest Neighbours & 0.929 ± 0.006 & 0.981 ± 0.004 & 0.986 ± 0.003 & 0.913 ± 0.012 & 0.928 ± 0.006 & 0.942 ± 0.010 & 0.898 ± 0.014 & 0.998 ± 0.000 & 0.898 ± 0.014 \\
+0.50 & Logistic Regression & 0.972 ± 0.004 & 0.996 ± 0.001 & 0.998 ± 0.001 & 0.970 ± 0.005 & 0.972 ± 0.004 & 0.970 ± 0.005 & 0.971 ± 0.005 & 0.999 ± 0.000 & 0.971 ± 0.005 \\
+0.50 & k-Nearest Neighbours & 0.944 ± 0.005 & 0.985 ± 0.002 & 0.988 ± 0.002 & 0.934 ± 0.009 & 0.943 ± 0.005 & 0.953 ± 0.007 & 0.922 ± 0.010 & 0.999 ± 0.000 & 0.922 ± 0.010 \\
+0.70 & Logistic Regression & 0.975 ± 0.003 & \textbf{0.997 ± 0.001} & 0.998 ± 0.001 & 0.972 ± 0.004 & 0.975 ± 0.003 & 0.972 ± 0.004 & 0.974 ± 0.003 & 0.999 ± 0.000 & 0.974 ± 0.003 \\
+0.70 & k-Nearest Neighbours & 0.949 ± 0.004 & 0.986 ± 0.002 & 0.989 ± 0.002 & 0.942 ± 0.006 & 0.948 ± 0.004 & 0.958 ± 0.005 & 0.931 ± 0.007 & 0.999 ± 0.000 & 0.931 ± 0.007 \\
+1.00 & Logistic Regression & \textbf{0.978 ± 0.002} & 0.997 ± 0.001 & \textbf{0.999 ± 0.000} & \textbf{0.976 ± 0.003} & \textbf{0.978 ± 0.002} & \textbf{0.976 ± 0.003} & \textbf{0.978 ± 0.003} & 0.999 ± 0.000 & \textbf{0.978 ± 0.003} \\
+1.00 & k-Nearest Neighbours & 0.954 ± 0.003 & 0.989 ± 0.001 & 0.991 ± 0.001 & 0.950 ± 0.005 & 0.954 ± 0.003 & 0.962 ± 0.004 & 0.941 ± 0.006 & 0.999 ± 0.000 & 0.941 ± 0.006 \\
+\bottomrule
+\bottomrule
+\end{tabularx}
+\end{table}
