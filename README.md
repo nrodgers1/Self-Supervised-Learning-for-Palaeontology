@@ -4,6 +4,7 @@
 This code is used to generate the results of the paper "Complexity Begets Simplicity: Self-Supervised Learning for
 Palaeontological Images with Few or No Labels" written by Niall Rodgers at the UK Centre for Astrobiology, at the University of Edinburgh. He can be contacted at Niall.Rodgers@ed.ac.uk. 
 
+[![DOI](https://zenodo.org/badge/1093658747.svg)](https://doi.org/10.5281/zenodo.20811306)
 
 
 
