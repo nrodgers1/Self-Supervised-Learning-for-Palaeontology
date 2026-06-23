@@ -26,7 +26,7 @@ Depending on your operating system, Hugging Face version and access to a GPU som
 
 
 
-Results folders give CSV and .tex files of the raw results as well as all the figures which appear in the manuscript. 
+Results folders give CSV and .tex files of the raw results as well as all the standalone versions of figures which appear in the manuscript so that they can be zoomed in high resolution. 
 
 
 Sources for the data used in this work are given in the manuscript in detail. We extract datasets from the repositories which were published alongside the works cited.
